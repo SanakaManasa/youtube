@@ -42,13 +42,21 @@ This will generate a merged video file.
 File Structure
 .
 ├── audio.mp3                # Extracted audio file
+
 ├── audio.webm               # Original audio file from video
+
 ├── download_merge.sh        # Script to download and merge audio & video
+
 ├── ffmpeg.exe               # FFmpeg executable (Large File)
+
 ├── file_list.txt            # List of files for processing
+
 ├── output.mp4.webm          # Video file output in webm format
+
 ├── output_merged.mp4        # Final merged video output
+
 ├── youtube.sh               # Script to handle audio extraction
+
 └── yt-dlp.exe               # yt-dlp executable (for downloading videos)
 
 Troubleshooting
