@@ -28,6 +28,7 @@ This project provides a simple script to download videos from YouTube and merge 
 Install Git LFS (if needed): If you are dealing with large files like ffmpeg.exe, you may need to use Git LFS. Follow the instructions on the site to install and configure it.
 
 3.**Usage**
+
 **Download Video**: Use the download_merge.sh script to download a video. You can specify the URL of the YouTube video to be downloaded.
 ./download_merge.sh https://www.youtube.com/watch?v=VIDEO_ID
 
@@ -60,7 +61,7 @@ This will generate a merged video file.
 
 └── yt-dlp.exe               # yt-dlp executable (for downloading videos)
 
-**Troubleshooting**
+4.**Troubleshooting**
 Error: 'ffmpeg' command not found: Ensure that ffmpeg is properly installed and its path is added to your system’s environment variables.
 
 Large Files Warning (GitHub): If you receive a warning about large files like ffmpeg.exe, consider using Git LFS to store them outside the repository.
