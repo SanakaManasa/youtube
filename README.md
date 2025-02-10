@@ -41,6 +41,7 @@ This will generate a merged video file.
 
 File Structure
 .
+
 ├── audio.mp3                # Extracted audio file
 
 ├── audio.webm               # Original audio file from video
